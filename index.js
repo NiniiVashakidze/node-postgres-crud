@@ -1,8 +1,10 @@
 
 const express = require('express')
+require('dotenv').config();
 const bodyParser = require('body-parser')
 const app = express()
 const port = 3000
+
 
 
 // to get all the exported files from queries.js file is needed and is assigned to a variable
