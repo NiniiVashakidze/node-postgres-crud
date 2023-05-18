@@ -20,7 +20,17 @@ npm install
 
 ```
 
-## To create the migration run:
+## To connect to the PostgreSQL database:
+
+1. copy paste and paste .example.env to .env
+
+```bash
+cp .example.env .env
+```
+
+2. open .env and insert your database credentials
+
+## To create the database tablesrun migration:
 
 ```bash
 knex migrate:latest
